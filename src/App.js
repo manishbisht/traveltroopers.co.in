@@ -34,7 +34,7 @@ function App() {
                         marginBottom: 8,
                     }}
                 >
-                    TravelTroopers.Travel
+                    traveltroopers.co.in
                 </div>
                 <div
                     style={{
@@ -51,7 +51,7 @@ function App() {
                         In the world full of Wanderers, Be a Travel Inspiration.
                     </div>
                     <div>Travel with a purpose, with Travel Troopers!</div>
-                    <div>Discover Rajasthan, Uttrakhand and Himachal.</div>
+                    <div>Use #traveltroopers to get featured.!</div>
                 </div>
                 <div style={{ marginBottom: 24 }}>
                     <button
@@ -73,17 +73,27 @@ function App() {
                 </div>
                 <div style={{ display: "flex" }}>
                     <div
-                        style={{ height: 48, width: 48, marginRight: 8 }}
+                        style={{
+                            height: 48,
+                            width: 48,
+                            marginRight: 8,
+                            cursor: "pointer",
+                        }}
                         onClick={openURLInNewWindow(
-                            "https://www.facebook.com/TravelTroopers.Travel"
+                            "https://www.facebook.com/traveltroopers.co.in/"
                         )}
                     >
                         <FacebookIcon />
                     </div>
                     <div
-                        style={{ height: 48, width: 48, marginRight: 8 }}
+                        style={{
+                            height: 48,
+                            width: 48,
+                            marginRight: 8,
+                            cursor: "pointer",
+                        }}
                         onClick={openURLInNewWindow(
-                            "https://www.instagram.com/traveltroopers.travel/"
+                            "https://www.instagram.com/traveltroopers.co.in/"
                         )}
                     >
                         <InstagramIcon />
